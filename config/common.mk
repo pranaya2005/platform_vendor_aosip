@@ -82,6 +82,10 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+# Long Screenshot
+PRODUCT_PACKAGES += \
+    StitchImage
+
 # Overlays
 include vendor/overlay/overlays.mk
 
